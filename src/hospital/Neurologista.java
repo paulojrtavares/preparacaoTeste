@@ -10,6 +10,10 @@ package hospital;
  * @author Userpl022pc20
  */
 public class Neurologista extends Medico{
+
+    public Neurologista(int anoDoutoramento, String insEnsino, String idLicenca, String nome, String dataNascimento, String observacoes) {
+        super(anoDoutoramento, insEnsino, idLicenca, nome, dataNascimento, observacoes);
+    }
     
     public void analisar(Imagiologia tac){
     

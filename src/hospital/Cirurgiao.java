@@ -11,6 +11,10 @@ package hospital;
  */
 public class Cirurgiao extends Medico{
 
+    public Cirurgiao(int anoDoutoramento, String insEnsino, String idLicenca, String nome, String dataNascimento, String observacoes) {
+        super(anoDoutoramento, insEnsino, idLicenca, nome, dataNascimento, observacoes);
+    }
+
     public void operar(Utente utente){
         
     }
